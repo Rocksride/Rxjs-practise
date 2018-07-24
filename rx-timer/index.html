@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article id="interval-controlls">
+        <section id='intervals'>
+            <header>
+                <h1>Start timer with speed</h1>
+            </header>
+            <nav id="buttons">
+                <button id="quarter">250ms</button>
+                <button id="half">500ms</button>
+                <button id="start">1000ms</button>
+            </nav>
+            <group>
+                <label for="intervalInput">interval input</label>
+                <input type="radio" checked value='intervalInput' name="test" id="intervalInput">
+                <label for="textInput">text input</label>
+                <input type="radio" value='textInput' name="test" id="textInput">
+                <label for="combinedInput">combined input</label>
+                <input type="radio" value='combinedInput' name="test" id="combinedInput">
+            </group>
+            <input disabled type="text" id="input">
+        </section>
+        <section id='strategy'>
+            <header>
+                <h2>Choose calculation strategy</h2>
+            </header>
+            <nav id="buttons">
+                <button id="positive">positive</button>
+                <button id="negative">negative</button>
+            </nav>
+        </section>
+    
+        <section id="reset">
+            <h2>stop or reset interval</h2>
+            <nav id="buttons">
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </nav>
+        </section>
+        <h2 id="result"></h2>
+    </article>
+</body>
+<script src="rx.js">  </script>
+<script src="app.js"></script>
+</html>
