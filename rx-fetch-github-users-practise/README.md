@@ -1,4 +1,4 @@
-Rx.js practise
+### Rx.js practise
 
 ## fetch users  
-![](./screenshots/1.png)
+![](../screenshots/1.png)
